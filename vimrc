@@ -25,10 +25,10 @@ syntax on
 " adicionando algumas coisas que encontrei no arch wiki do vimrc
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " número de espaços que um tab vale
-set tabstop=4
+set tabstop=2
 
 " número de espaços para cado passo do (auto)indent
-set shiftwidth=4
+set shiftwidth=2
 
 " substitui um tab pelo número apropriado de espaços. Para inserir um tab
 " real, use ctrl-v <tab>
