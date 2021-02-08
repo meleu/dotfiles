@@ -1,8 +1,12 @@
-" textwidth=70 : setenta caracteres por linha
-" background=dark :
-"set textwidth=78
+" um colorscheme bom para ambos CLI e GUI
+colorscheme evening
 
-set background=dark
+" fonte baixada de nerd-fonts:
+" https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/FiraCode/Regular/complete/Fira%20Code%20Regular%20Nerd%20Font%20Complete%20Mono.ttf
+set guifont=Firacode\ Nerd\ Font\ Mono\ 16
+
+" textwidth=70 : setenta caracteres por linha
+"set textwidth=80
 
 " aw : 
 " ls=2 : 

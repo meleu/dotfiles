@@ -34,8 +34,10 @@ alias l='ls -CF'                              #
 ###############################################################################
 
 
-# I know this is an aliases file. But I'm declaring the function below in order
-# to assure "portability" between Cygwin/macOs/Linux.
+# I'd like to say:
+# launch='xdg-open'
+# But I'm declaring it as a function in order to assure
+# "portability" between Cygwin/macOs/Linux.
 launch() {
   local args="$@"
 
@@ -54,9 +56,11 @@ launch() {
 
 
 # links
-alias gmail="launch 'https://gmail.com'"
+alias gmail="launch 'https://gmail.com/'"
 
 alias gist="launch 'https://gist.github.com/'"
+
+alias gh="launch 'https://github.com/'"
 
 alias keep="launch 'https://keep.google.com/'"
 
