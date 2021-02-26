@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# sudo apt install \
+#   vim htop tmux jq curl wget
+
 echo '
 TODO:
 =====
